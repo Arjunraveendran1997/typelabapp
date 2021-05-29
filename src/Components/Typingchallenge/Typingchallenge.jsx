@@ -17,7 +17,7 @@ const Typingchallenge=({selectedparagraph,words,characters, wpm,timeremaining, t
                 <Typingbox 
                 timeremaining={timeremaining}
                 timerstarted={timerstarted}
-               
+               selectedparagraph={selectedparagraph}
                 textinfo={textinfo} 
                 oninputchange={oninputchange}/>
                 

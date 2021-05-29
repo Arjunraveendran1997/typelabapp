@@ -57,7 +57,7 @@ fetchnewparagraphfallback=()=>{
                 status:"notattemted",
         }
         })
-        this.setState({...defaultstate,textinfo:textinfo, selectedparagraph:data})
+        this.setState({...defaultstate,textinfo, selectedparagraph:data})
         
     }) 
 
@@ -89,7 +89,7 @@ starttimer=()=>{
 }
 
 startagain = ()=>{
-    this.fetchnewpage()
+    this.fetchnewparagraphfallback()
 }
 
 
@@ -104,7 +104,7 @@ startagain = ()=>{
             this.setState({
                 textinfo:[
                     {
-                    textletter: this.state.textinfo[0].textletter,
+                    textletter:this.state.textinfo[1].textletter,
                     status:"notattemted"
                     },
                     ...this.state.textinfo.slice(1),

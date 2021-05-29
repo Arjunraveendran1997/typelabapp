@@ -24,7 +24,7 @@ const Typingbox=({timerstarted,timeremaining,textinfo,oninputchange })=>{
                      <Textletter
                     key={index}
                     individualletterinfo={individualletterinfo} 
-                    return
+                    
                     />
                             
                 ))}

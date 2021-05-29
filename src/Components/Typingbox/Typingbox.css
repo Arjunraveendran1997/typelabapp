@@ -71,3 +71,11 @@ overflow: scroll;
     
     
 }
+
+@media (max-width:800){
+    .text-paragraph{
+        line-height: normal;
+        font-size: 10px;
+    }
+
+}
