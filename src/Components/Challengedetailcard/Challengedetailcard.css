@@ -1,0 +1,28 @@
+.detailscard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(75, 75, 75, 0.12),0 1px 3px rgba(75, 75, 75, 0.26);
+    transition: all 0.3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    background-color: brown;
+}
+
+.detailscard-container:hover{
+    box-shadow: 0 14px 28px rgba(192, 62, 62, 0.808),0 10px 10px rgba(75, 75, 75, 0.26);
+    background-color: rgb(165, 67, 67);
+}
+
+.card-name{
+    font-size: 15px;
+    margin-bottom: -15px;
+
+}
+
+.card-value{
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+}

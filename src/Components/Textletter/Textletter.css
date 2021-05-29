@@ -1,0 +1,17 @@
+.text-letter{
+    font-size: 19px;
+    line-height: 12px;
+    
+}
+
+.correct{
+    color: green;
+}
+
+.incorrect{
+    color: red;
+}
+
+.notattemted{
+    color: rgb(0, 0, 0);
+}

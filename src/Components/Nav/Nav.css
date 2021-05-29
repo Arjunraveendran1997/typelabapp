@@ -1,0 +1,42 @@
+.nav-container{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    background: black;
+    margin: 0;
+    box-shadow: 0 1px 3px rgba(75, 75, 75, 0.12),0 1px 3px rgba(75, 75, 75, 0.26);
+    justify-content: space-between;
+    z-index: 99;
+}
+
+.nav-left{
+    display: flex;
+    align-items:center;
+
+}
+
+.nav-right{
+    margin-right: 30px;
+
+}
+.nav-logo{
+    margin-left: 20px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.nav-logo-text{
+    font-family: "Bangers",cursive;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-top: 50px;
+    letter-spacing: 4px;
+    color: rgb(3, 77, 146);
+}
+
+.nav-text-link{
+    text-decoration: none;
+    font-size: 32px;
+    color: rgb(3, 77, 146);
+    
+}

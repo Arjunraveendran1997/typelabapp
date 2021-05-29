@@ -1,0 +1,49 @@
+.landing-container{
+    display: flex;
+    min-height: 60vh;
+    justify-content: space-between;
+    align-items: center;
+   color: blanchedalmond;
+   padding: 0 32px;
+   font-family: "Bangers",cursive;
+   margin: 0;
+   flex-wrap: wrap;
+}
+.landing-header{
+    font-size: 80px;
+    letter-spacing: 5px;
+    margin: 0;
+
+
+}
+
+.landing-typewriter{
+    font-size: 50px;
+    letter-spacing: 3px;
+
+
+}
+
+.banner-image{
+    width: 35vw;
+    margin-right: 90px;
+    
+
+}
+
+@media (max-width:800px) {
+    .landing-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .banner-image{
+        width: 60vw;
+    }
+    .landing-header{
+        margin-top: 32px;
+        text-align: center;
+    }
+    .landing-typewriter{
+        text-align: center;
+    }
+}
