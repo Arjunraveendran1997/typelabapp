@@ -14,8 +14,13 @@ const Textletter=({individualletterinfo})=>{
 
    
     return (
-        <span className={`text-letter ${statusclass}`}>{individualletterinfo.textletter}</span>
-
+        <div>
+        <span className={`text-letter ${statusclass}`}>
+            {individualletterinfo.textletter}
+          
+             </span>
+      
+        </div>
     )
 
 }

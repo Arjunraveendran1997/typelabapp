@@ -68,6 +68,10 @@ fetchnewparagraphfallback=()=>{
        this.fetchnewparagraphfallback()
 }
 
+startagain = ()=>{
+    this.fetchnewparagraphfallback()
+}
+
 starttimer=()=>{
     this.setState({timerstarted:true})
     const timer= setInterval(()=>{
@@ -88,9 +92,7 @@ starttimer=()=>{
     },1000)
 }
 
-startagain = ()=>{
-    this.fetchnewparagraphfallback()
-}
+
 
 
     handleuserinput=(inputvalue)=>{
@@ -104,7 +106,7 @@ startagain = ()=>{
             this.setState({
                 textinfo:[
                     {
-                    textletter:this.state.textinfo[1].textletter,
+                    textletter:this.state.textinfo[0].textletter,
                     status:"notattemted"
                     },
                     ...this.state.textinfo.slice(1),
@@ -126,7 +128,7 @@ startagain = ()=>{
         if(!(index === this.state.selectedparagraph.length-1))
         textinfo[index + 1].status = "notattemted";
 
-        const iscorrect = inputvalue[index]=== textinfo[index].textletter
+        const iscorrect = inputvalue[index]===textinfo[index].textletter
 
         textinfo[index].status = iscorrect ? "correct" : "incorrect"
 
