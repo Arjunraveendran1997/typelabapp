@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/typelabapp/static/css/main.d816e238.chunk.css",
+    "main.js": "/typelabapp/static/js/main.ccd886fa.chunk.js",
+    "main.js.map": "/typelabapp/static/js/main.ccd886fa.chunk.js.map",
+    "runtime-main.js": "/typelabapp/static/js/runtime-main.bb86702a.js",
+    "runtime-main.js.map": "/typelabapp/static/js/runtime-main.bb86702a.js.map",
+    "static/js/2.8ead50bd.chunk.js": "/typelabapp/static/js/2.8ead50bd.chunk.js",
+    "static/js/2.8ead50bd.chunk.js.map": "/typelabapp/static/js/2.8ead50bd.chunk.js.map",
+    "index.html": "/typelabapp/index.html",
+    "static/css/main.d816e238.chunk.css.map": "/typelabapp/static/css/main.d816e238.chunk.css.map",
+    "static/js/2.8ead50bd.chunk.js.LICENSE.txt": "/typelabapp/static/js/2.8ead50bd.chunk.js.LICENSE.txt",
+    "static/media/Banner_img.421db4a4.png": "/typelabapp/static/media/Banner_img.421db4a4.png",
+    "static/media/Nav_img.f2b044ed.png": "/typelabapp/static/media/Nav_img.f2b044ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bb86702a.js",
+    "static/js/2.8ead50bd.chunk.js",
+    "static/css/main.d816e238.chunk.css",
+    "static/js/main.ccd886fa.chunk.js"
+  ]
+}
